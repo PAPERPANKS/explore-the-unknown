@@ -1,0 +1,201 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "space facts",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "alexa help ",
+                        "help help",
+                        "please help me",
+                        "help me out",
+                        "help about the skill",
+                        "use of this skill",
+                        "what this skill do",
+                        "give me help",
+                        "help me",
+                        "please help",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "tata",
+                        "bye bye",
+                        "see you later",
+                        "bye",
+                        "exit",
+                        "quit",
+                        "pause",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [
+                        {
+                            "name": "planetName",
+                            "type": "planetSlot"
+                        }
+                    ],
+                    "samples": [
+                        "give me fact about {planetName} planet",
+                        "tell me fact about {planetName} planet",
+                        "facts for {planetName}",
+                        "fact for {planetName}",
+                        "tell me space facts about {planetName}",
+                        "space facts for {planetName}",
+                        "space fact about {planetName}",
+                        "tell me some fact about {planetName}",
+                        "fact about the {planetName}",
+                        "give me some fact",
+                        "tell facts of {planetName}",
+                        "tell me {planetName} facts",
+                        "fact about {planetName}",
+                        "give me a fact about {planetName}",
+                        "Give me some facts of {planetName}",
+                        "tell me some facts about {planetName}",
+                        "get some facts for {planetName}",
+                        "facts about {planetName}"
+                    ]
+                },
+                {
+                    "name": "HelloIntent",
+                    "slots": [],
+                    "samples": [
+                        "howdy",
+                        "hey",
+                        "hello",
+                        "hi",
+                        "hola",
+                        "greetings"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "planetSlot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "pluto",
+                                "synonyms": [
+                                    "smallest",
+                                    "last",
+                                    "last planet",
+                                    "dwarf",
+                                    "dwarf planet"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "moon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sun",
+                                "synonyms": [
+                                    "star"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "venus",
+                                "synonyms": [
+                                    "VENUS",
+                                    "venus",
+                                    "Venus"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "saturn",
+                                "synonyms": [
+                                    "ring",
+                                    "ring planet",
+                                    "Saturn"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "neptune",
+                                "synonyms": [
+                                    "Neptune"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "uranus",
+                                "synonyms": [
+                                    "ice",
+                                    "ice giant"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mars",
+                                "synonyms": [
+                                    "red",
+                                    "Mars",
+                                    "Red planet"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mercury",
+                                "synonyms": [
+                                    "first",
+                                    "Mercury"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jupiter",
+                                "synonyms": [
+                                    "biggest planet",
+                                    "Jupiter"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "earth",
+                                "synonyms": [
+                                    "Earth",
+                                    "green planet",
+                                    "world",
+                                    "Home"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
